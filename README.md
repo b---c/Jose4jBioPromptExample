@@ -3,9 +3,9 @@
 A very simple Android project that shows how to use jose4j with Android keystore system
 keys that require user biometric authentication for use.
 
-`MainActivity` is where the magic happens. After setting the private key on the JWS or JWE object,
+`MainActivity` is where the magic happens, so look there to see the actual workings. But basically, after setting the private key on the JWS or JWE object,
 calling the [prepareSigningPrimitive](https://www.javadoc.io/static/org.bitbucket.b_c/jose4j/0.7.3/org/jose4j/jws/JsonWebSignature.html#prepareSigningPrimitive())
-or [prepareDecryptingPrimitive()](https://www.javadoc.io/static/org.bitbucket.b_c/jose4j/0.7.3/org/jose4j/jwe/JsonWebEncryption.html#prepareDecryptingPrimitive()) method respectively will allow acces to the underlying `Signature` or `Cipher`, which can be used to set up a `BiometricPrompt.CryptoObject` that can authorize use of the crypto object by showing a biometric authentication dialog to the user. 
+or [prepareDecryptingPrimitive()](https://www.javadoc.io/static/org.bitbucket.b_c/jose4j/0.7.3/org/jose4j/jwe/JsonWebEncryption.html#prepareDecryptingPrimitive()) method respectively will allow access to the underlying `Signature` or `Cipher`, which can be used to set up a `BiometricPrompt.CryptoObject` that can authorize use of the crypto object by showing a biometric authentication dialog to the user. 
 
 BiometricPrompt
 
