@@ -17,6 +17,6 @@ pin enabled using the 'Security' section of the on-device settings app
 1. Enter some text and tap the button to "Sign & Verify" or "Encrypt & Decrypt"
 1. Present fingerprint when prompted (on the emulator, hit the '...'
 on the toolbar on the right hand side to open 'Extended Controls' then
-select 'Fingerprint' and 'touch the sensor'.
+select 'Fingerprint' and 'touch the sensor')
 1. The text and the the JWS or JWE will be shown
 1. Profit?
