@@ -7,8 +7,6 @@ keys that require user biometric authentication for use.
 calling the [prepareSigningPrimitive](https://www.javadoc.io/static/org.bitbucket.b_c/jose4j/0.7.3/org/jose4j/jws/JsonWebSignature.html#prepareSigningPrimitive())
 or [prepareDecryptingPrimitive()](https://www.javadoc.io/static/org.bitbucket.b_c/jose4j/0.7.3/org/jose4j/jwe/JsonWebEncryption.html#prepareDecryptingPrimitive()) method respectively will allow access to the underlying `Signature` or `Cipher`, which can be used to set up a `BiometricPrompt.CryptoObject` that can authorize use of the crypto object by showing a biometric authentication dialog to the user. 
 
-BiometricPrompt
-
 To run it:
 
 1. Open project in android studio
@@ -22,4 +20,3 @@ on the toolbar on the right hand side to open 'Extended Controls' then
 select 'Fingerprint' and 'touch the sensor'.
 1. The text and the the JWS or JWE will be shown
 1. Profit?
-
