@@ -1,7 +1,8 @@
 # jose4j BiometricPrompt AndroidKeyStore Example App
 
 A very simple Android project that shows how to use jose4j with Android keystore system
-keys that require user biometric authentication for use.
+keys that require user biometric authentication for use. This could be used, for example,
+to require that the user present a biometric each time a particular key is used to sign a JWT.
 
 `MainActivity` is where the magic happens, so look there to see the actual workings. But basically, after setting the private key on the JWS or JWE object,
 calling the [prepareSigningPrimitive](https://www.javadoc.io/static/org.bitbucket.b_c/jose4j/0.7.3/org/jose4j/jws/JsonWebSignature.html#prepareSigningPrimitive())
