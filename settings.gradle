@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Jose4j Bio Prompt Example"
