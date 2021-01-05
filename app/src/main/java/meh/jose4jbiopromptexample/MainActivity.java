@@ -205,7 +205,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        decryptingJwe.setDoKeyValidation(false);
         CryptoPrimitive cryptoPrimitive = decryptingJwe.prepareDecryptingPrimitive();
         Cipher cipher = cryptoPrimitive.getCipher();
 
